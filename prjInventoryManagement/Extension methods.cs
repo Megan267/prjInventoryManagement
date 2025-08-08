@@ -9,9 +9,8 @@ namespace prjInventoryManagement
     public static class Extension_methods
     {
         // Extension methods for List<Product>
-        // Reference: Microsoft Docs - Extension Methods (C# Programming Guide)
-        // https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
-        // Calculates the total inventory value
+        // Microsoft Learn (2025) demonstrates how to do extension methods to calculate a total.
+        // This method calculates the total inventory value.
         public static double TotalValue(this List<Product> products)
         {
             return products.Sum(p => p.Price * p.Quantity);
@@ -24,3 +23,7 @@ namespace prjInventoryManagement
         }
     }
 }
+/*
+ * Reference List
+ * Microsoft Learn. 2025.Extension members (C# Programming Guide) [Source code]. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods> [Accessed 08 August 2025]. 
+ */
