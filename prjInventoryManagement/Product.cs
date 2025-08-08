@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace prjInventoryManagement
 {
+    //custome types
     public class Product
     {
         public int ID { get; set; }
